@@ -1,0 +1,40 @@
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card-single {
+  flex: 1 1 250px;
+  max-width: 300px;
+  min-width: 220px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-single:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card-single h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card-single p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

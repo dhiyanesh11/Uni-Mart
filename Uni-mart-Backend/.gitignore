@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Django ----
+*.log
+*.pot
+db.sqlite3
+media/
+
+# ---- Virtual environments ----
+venv/
+env/
+
+# ---- Environment variables ----
+.env
+
+# ---- Node.js / React ----
+node_modules/
+build/
+dist/
+
+# ---- VSCode ----
+.vscode/
