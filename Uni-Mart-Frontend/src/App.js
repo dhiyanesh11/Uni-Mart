@@ -16,7 +16,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
  return (
-  <div style={{ padding: '2rem' }}>
+  <div style={{ padding: '5rem' }}>
     <div className="title">
       <h1>Welcome to University Marketplace</h1>
     </div>
@@ -52,7 +52,8 @@ function App() {
           <Route path="/roommates" element={<Roommates />} />
           <Route path="/posts" element={<Posts />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignupPage />} />       
+          <Route path="/signup" element={<SignupPage />} />
+                
         </Routes>
       </div>
     </Router>
